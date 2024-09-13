@@ -1,0 +1,55 @@
+.jobs-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  margin: auto;
+  padding-bottom: 80px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.jobs-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  width: 290px;
+  font-size: 38px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.loading-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.restaurant-arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.arrow-controller-button {
+  font-size: 8px;
+  border: 2px solid #52606d;
+  border-radius: 3px;
+  text-align: center;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.arrow-num {
+  color: #52606d;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  margin: 8px;
+  line-height: 1.3;
+}
